@@ -7,7 +7,7 @@ type Props = {};
 const Container = (props: Props) => {
   const [active, setActive] = useState("monthly");
   return (
-    <section className=' space-y-6 lg:space-y-0 lg:gap-6 lg:flex lg:w-3/4 m-auto gap-4 h-[80%] lg:absolute w-full max-w-xl lg:max-w-4xl'>
+    <section className=' space-y-6 lg:space-y-0 lg:gap-6 lg:flex lg:w-3/4 m-auto gap-4 h-[80%] max-h-[430px] lg:absolute w-full max-w-xl lg:max-w-4xl'>
       <div className='bg-DarkBlue h-48 flex-flex-col lg:h-full rounded-xl '>
         <div className='flex lg:flex-col lg:pt-4 lg:items-start items-center lg:w-full px-4 rounded-xl bg-Blue h-3/5 min-w-[200px] space-x-6 lg:space-x-0 lg:space-y-8'>
           <img
